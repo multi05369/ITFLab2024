@@ -24,10 +24,54 @@
 
 ## Basic Commands
   - git status: แสดงสถานะปัจจุบันของที่เก็บข้อมูล แสดงไฟล์ที่ติดตาม เปลี่ยนแปลง หรือเตรียมไว้
-  - git add <ชื่อไฟล์>: เตรียมไฟล์สำหรับการยืนยันครั้งต่อไป
-  - git commit -m "ข้อความเกี่ยวกับการเปลี่ยนแปลงครั้งนี้": สร้างภาพรวมของการเปลี่ยนแปลงที่เตรียมไว้และบันทึกไว้ในประวัติของที่เก็บข้อมูลด้วยข้อความที่อธิบาย
+  - git add <ชื่อไฟล์>: เพิ่มไฟล์ที่แก้ไขหรือสร้างใหม่เข้าไปใน staging area
+    
+    วิธีการใช้
+    ```git
+    git add <ชื่อไฟล์หรือโฟลเดอร์>
+    ```
+    หรือ
+    ```git
+    git add .
+    ```
+    เพื่อเพิ่มไฟล์ทั้งหมดในโฟลเดอร์ปัจจุบัน
+  - git commit -m บันทึกการเปลี่ยนแปลงที่อยู่ใน staging area ลงใน Git repository
+    
+    วิธีการใช้
+    ```git
+    git commit -m "ข้อความบันทึกการเปลี่ยนแปลง"
+    ```
   - git log: แสดงประวัติคำสั่งต่าง ๆ ที่เคยใช้
+    
+    วิธีการใช้
+    ```git
+    git log
+    ```
+    หรือ
+    ```git
+    git log --author="Your Name"
+    ```
+    เพื่อดูเฉพาะ commit ที่ทำโดยผู้เขียนคนหนึ่ง
+  - git push: ส่งการเปลี่ยนแปลงที่น้อง ๆ commit ในเครื่องของน้องไปยัง remote repository (Github)
+    ```git
+    git push
+    ```
   - git diff: แสดงความแตกต่างระหว่างสถานะปัจจุบันของไฟล์ของน้อง ๆ กับหาร commit ก่อนหน้า
+  - git remote: จัดการการเชื่อมต่อกับ remote repositories
+    
+    วิธีการใช้
+    ดูรายการ remote repositories ที่เชื่อมต่อ:
+    ```git
+    git remote -v
+    ```
+    เพิ่ม remote repository ใหม่:
+    ```git
+    git remote add origin <URL ของ remote repository>
+    ```
+    ลบ remote repository:
+    ```git
+    git remote remove <ชื่อของ remote repository>
+    ```
 
 ## Resources
   - Official Git documentation: https://git-scm.com/doc
