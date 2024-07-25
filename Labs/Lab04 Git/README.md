@@ -34,3 +34,5 @@
   - Interactive Git tutorial: https://learngitbranching.js.org/
 
 Made by <a href="https://github.com/multi05369">multi05369</a>
+
+Follow me in every day <a href="https://www.instagram.com/ntp.taikie/">IG</a>
