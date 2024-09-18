@@ -12,3 +12,8 @@
 - MAC Address เป็นถาวร: ไม่สามารถเปลี่ยนแปลงได้ง่าย เนื่องจากถูกกำหนดมาโดยผู้ผลิตในระดับฮาร์ดแวร์
 - IP Address เป็นแบบชั่วคราว: สามารถเปลี่ยนแปลงได้ตามการเชื่อมต่อเครือข่ายใหม่ ๆ ขึ้นอยู่กับการกำหนดค่าในระดับซอฟต์แวร์
 - MAC Address ยังถูกใช้ในหลายกรณี เช่น การกรองอุปกรณ์ที่จะเชื่อมต่อกับเครือข่าย (MAC Address filtering) และการควบคุมการเข้าถึงในเครือข่าย Wi-Fi
+
+## References
+https://standards.ieee.org/products-services/regauth/index.html
+https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-software-releases-12-2-mainline/15172-mac-address.html
+https://ieeexplore.ieee.org/browse/standards/get-program/page/series?id=68
