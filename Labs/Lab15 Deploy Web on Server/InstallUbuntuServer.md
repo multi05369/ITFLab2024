@@ -15,7 +15,7 @@
 **Network Configuration และ Proxy Configuration ให้ข้ามขั้นตอนตรงนี้ไป**
 
 
-### 3. รอให้เครื่อง Server ทำหาร test ให้เสร็จ จากนั้น Storage Configuration ให้เลือกเป็น Entire Disk แล้ว Continue ต่อไปเรื่อย ๆ
+### 3. รอให้เครื่อง Server ทำการ test ให้เสร็จ จากนั้น Storage Configuration ให้เลือกเป็น Entire Disk แล้ว Continue ต่อไปเรื่อย ๆ
 
 ### 4. หลังจากเสร็จแล้วจะขึ้นหน้าต่างให้ตั้งค่าชื่อ และ password ต่าง ๆ สามารถตั้งได้ตามใจชอบ
 
